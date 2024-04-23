@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+#app{
+  max-width: 460px;
+  height: 800px;
+  margin: auto;
+}
+header{
+  display: flex;
+  gap: 24px;
+  padding: 12px;
+}
+
+header svg{
+  margin-right: auto;
+}
+
+header ion-icon{
+  font-size: 24px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+nav{
+  padding: 12px;
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+nav button{
+  border: 0;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 10px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+nav button:hover{
+  background-color: black;
+  color: white;
+}
+
+main{
+  padding: 0 12px;
+}
+
+img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.info-canal{
+  display: flex;
+  padding: 12px;
+  gap: 12px;
+}
+
+.avatar{
+  width: 32px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.title-canal-info{
+  display: grid;
+}
+
+.title-canal-info h6 {
+  font-size: 12px;
+}
+
+.title-canal-info p {
+  font-size: 11px;
+  opacity: 0.7;
+}
+
+footer{
+  max-width: 460px;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  display: flex;
+  padding: 8px;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer div{
+  display: grid;
+  justify-items: center;
+}
+
+footer div ion-icon{
+  font-size: 20px;
+}
+
+footer div span{
+  font-size: 10px;
+}
